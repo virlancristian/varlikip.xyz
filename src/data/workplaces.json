@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Fullstack Developer",
+        "company": "CAELUS Software",
+        "startDate": "Apr. 2024",
+        "endDate": "Present",
+        "skills": ["React", "Node.js", "Express", "NestJS", "MySQL", "Spring Boot"],
+        "description": "I was part of a team of 3 people who developed various web applications, the key projects being the following:",
+        "projects": [
+            {
+                "title": "DISEM",
+                "description": "An internal web application which consists of a dashboard dedicated to managing forecast data from their internal database and send forecast data to beneficiaries (via authentication in the application or FTP)",
+                "technologies": ["React", "Node.js", "Express", "Spring Boot", "MySQL"]
+            },
+            {
+                "title": "bestvalueprint.ro",
+                "description": "A B2B online shop for printers which can be partially accessed by guests, and fully accessed by partner customers",
+                "technologies": ["React", "Nextjs", "Appwrite", "NestJS", "MySQL"]
+            }
+        ]
+    }
+]

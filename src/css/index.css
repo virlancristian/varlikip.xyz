@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Clash Grotesk Light';
+  src: url("../assets/fonts/ClashGrotesk-Light.otf");
+}
+
+@font-face {
+  font-family: 'Clash Grotesk Semibold';
+  src: url("../assets/fonts/ClashGrotesk-Semibold.otf");
+}

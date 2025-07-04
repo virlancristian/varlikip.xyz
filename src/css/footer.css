@@ -1,0 +1,15 @@
+@media (min-width: 800px) {
+    .footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2%;
+        height: 20vh;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+}

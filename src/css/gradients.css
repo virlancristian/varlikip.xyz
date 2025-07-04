@@ -1,0 +1,9 @@
+.blue-white-gradient {
+    background: rgb(2,0,36);
+    background: linear-gradient(171deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(53,91,98,1) 100%); 
+}
+
+.black-white-gradient {
+    background: rgb(0,0,0);
+    background: linear-gradient(21deg, rgba(0,0,0,1) 78%, rgba(119,138,142,1) 100%); 
+}
