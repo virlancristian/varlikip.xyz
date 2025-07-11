@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Cloud app for image storage and editing",
+        "description": "My Bachelor of Engineering thesis. It consists of a web page for uploading, managing and editing images with a distributed system of cloud instances for managing the data",
+        "technologies": ["React", "Spring Boot", "NestJS", "MySQL", "Docker"],
+        "source": "",
+        "url": "https://licenta.varlikip.xyz"
+    },
+    {
+        "title": "Basic Chat",
+        "description": "A web app for real-time text messaging between authorized users of the app",
+        "technologies": ["React", "Spring Boot", "MySQL"],
+        "source": "https://github.com/virlancristian/basic-chat",
+        "url": "https://basic-chat.varlikip.xyz/"
+    },
+    {
+        "title": "Cat Image Generator",
+        "description": "A web app dedicated to generate random cat images through a friendly interface using the CatAPI",
+        "technologies": ["Spring Boot", "HTML", "CSS", "Javascript"],
+        "source": "https://github.com/virlancristian/Cat-Image-Generator",
+        "url": ""
+    },
+    {
+        "title": "vNotes",
+        "description": "An Android application for creating and editing notes",
+        "technologies": ["Java Android SDK"],
+        "source": "https://github.com/virlancristian/vnotes",
+        "url": "https://github.com/virlancristian/vnotes/releases/tag/release-v0.1.0b"
+    }
+]
