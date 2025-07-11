@@ -1,0 +1,34 @@
+.workplace-container {
+    min-height: 105vh;
+}
+
+@media (min-width: 1000px) {
+    .workplace-container {
+        min-height: 95vh;
+    }
+
+    .workplace-box {
+        height: 75vh;
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .project {
+        margin: 5% 5%;
+    }
+
+    .position {
+        font-size: 4vh;
+    }
+
+    .period, .work-description, .project-title {
+        font-size: 2vh;
+    }
+
+    .project-description {
+        font-size: 1.75vh
+    }
+}

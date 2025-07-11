@@ -16,6 +16,11 @@
                 "title": "bestvalueprint.ro",
                 "description": "A B2B online shop for printers which can be partially accessed by guests, and fully accessed by partner customers",
                 "technologies": ["React", "Nextjs", "Appwrite", "NestJS", "MySQL"]
+            },
+            {
+                "title": "b2b.itbright.ro",
+                "description": "A B2b online shop for printers, similar to bestvalueprint.ro, with partial access for guests, and full access for partner customers",
+                "technologies": ["React", "Nextjs", "Express", "Prisma", "PostgreSQL"]
             }
         ]
     }
