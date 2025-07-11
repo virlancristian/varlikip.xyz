@@ -1,0 +1,20 @@
+.study-container {
+    min-height: 95vh;
+}
+
+@media (min-width: 1000px) {
+    .study-container h1 {
+        font-size: 2.5vh;
+        margin: 3% 0;
+    }
+
+    .study-container p, .study-container ul, .study-container li {
+        font-size: 1.75vh
+    }
+
+    .study-container h3 {
+        font-size: 2vh;
+
+        margin: 1% 0;
+    }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "degree": "Bachelor of Engineering",
+        "faculty": "Faculty of Automatic Control and Computer Science",
+        "university": "Politehnica University of Bucharest",
+        "startDate": "Oct. 2021",
+        "endDate": "Jul. 2025",
+        "description": "I gratuated the Systems Engineering - Automatic Control and Applied Informatics program with a Bachelor of Engineering degree",
+        "courses": [
+            "Introduction to operating systems",
+            "Data Structures and Algorithms",
+            "Object-Oriented Programming",
+            "Web technologies",
+            "Databases",
+            "Web development with Java support",
+            "Software systems engineering",
+            "Multimedia apps",
+            "Security of computer systems",
+            "Networking in automatic control",
+            "Database administration",
+            "Data compression",
+            "Machine Learning Techniques",
+            "Compilers"
+        ]
+    }
+]
