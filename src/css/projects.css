@@ -1,3 +1,33 @@
 .project-slider-container {
     min-height: 95vh;
 }
+
+.project-card {
+    max-width: 80%;
+    min-height: 50vh;
+}
+
+@media (min-width: 1000px) {
+    .project-card {
+        min-width: 60vw;
+    }
+
+    .project-card h1 {
+        font-size: 300%;
+        margin: 3% 0;
+    }
+
+    .project-card li {
+        font-size: 150%;
+    }
+
+    .project-card li a:hover {
+        text-decoration: underline;
+    }
+
+    .project-navigation-button {
+        width: 10vw;
+        height: 5vh;
+        font-size: 3vh; 
+    }
+}
