@@ -7,6 +7,7 @@ import "./css/gradients.css";
 import "./css/fonts.css";
 import "./css/animations.css";
 import "./css/images.css";
+import "./css/heights.css";
 
 import reportWebVitals from './reportWebVitals';
 import { DesktopHeader } from './components/header/desktop.header';

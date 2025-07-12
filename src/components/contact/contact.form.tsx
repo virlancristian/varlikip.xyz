@@ -1,5 +1,6 @@
-import axios, { AxiosError, AxiosResponse, HttpStatusCode } from "axios";
 import { ChangeEvent, JSX, useState } from "react";
+import classNames from "classnames";
+import axios, { AxiosError, AxiosResponse, HttpStatusCode } from "axios";
 import { toast } from "react-toast";
 
 import emailIcon from "../../assets/img/contact-email-icon.png";
@@ -73,7 +74,7 @@ export function ContactForm(props: Props): JSX.Element {
     };
 
     return (
-        <div className="black-white-gradient text-white flex flex-col items-center justify-center contact-form">
+        <div className={classNames(...containerClasses, "text-white flex flex-col items-center justify-center contact-form")}>
             <h1 className="text-2xl font-clash-grotesk-semibold text-center my-3">{isHomePage ? "So what are you waiting? Send a messsage!" : "Contact"}</h1>
             <div className="flex flex-col justify-center items-center contact-form-content">
                 <div className="flex flex-col justify-center items-center">
