@@ -11,6 +11,7 @@ export function StudiesPage(): JSX.Element {
 
     return (
         <div>
+            <title>Studies - Vîrlan Cristian-Alexandru</title>
             {
                 studies.map((study: Study, idx: number) => (
                     <StudyContainer study={study} containerBackgroundClassnames={[idx % 2 === 0 ? "blue-white-gradient" : "black-white-gradient"]}/>

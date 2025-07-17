@@ -7,6 +7,7 @@ import "../css/projects.css";
 export function ProjectsPage(): JSX.Element {
     return (
         <div className="project-slider-container blue-white-gradient flex justify-center items-center">
+            <title>Projects - Vîrlan Cristian-Alexandru</title>
             <ProjectSlider/>
         </div>
     );

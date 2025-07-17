@@ -11,6 +11,7 @@ export function WorkExperiencePage(): JSX.Element {
 
     return (
         <div>
+            <title>Work experience - Vîrlan Cristian-Alexandru</title>
             {
                 workplaces.map((workplace: Workplace, idx: number) => (
                     <WorkPlace workplace={workplace} containerBackgroundClassname={idx % 2 == 0 ? "blue-white-gradient" : "black-white-gradient"}/>
