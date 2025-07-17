@@ -63,7 +63,7 @@ export function ContactForm(props: Props): JSX.Element {
         }
 
         try {
-            const response: AxiosResponse<ApiContactFormAddResponse> = await axios.post(`${process.env.REACT_APP_API_URL}/api/contact/form/add`, contactForm);
+            const response: AxiosResponse<ApiContactFormAddResponse> = await axios.post(`${process.env.REACT_APP_API_URL}/contact/form/add`, contactForm);
 
             if(response.status === HttpStatusCode.Ok) {
                 toast.success("Form sent successfully!");
