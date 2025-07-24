@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { ToastContainer } from 'react-toast';
+import { ToastContainer } from 'react-toastify';
 
 import './css/index.css';
 import "./css/gradients.css";
