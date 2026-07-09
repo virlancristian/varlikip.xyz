@@ -1,0 +1,37 @@
+.github-link {
+    padding-right: 24px;
+    background: url("../assets/github-icon.svg") no-repeat right center;
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+}
+
+.email-link {
+    padding-right: 24px;
+    background: url("../assets/email-icon.svg") no-repeat right center;
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+}
+
+.phone-link {
+    padding-right: 24px;
+    background: url("../assets/phone-icon.svg") no-repeat right center;
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+}
+
+@media(min-width: 750px) {
+    .title {
+        font-size: 3vw;
+        margin-bottom: 5vh;
+    }
+
+    .github-link, .email-link, .phone-link {
+        width: 64px;
+        height: 64px;
+        background-size: 64px 64px;
+        margin: 0 2vw;
+    }
+}
